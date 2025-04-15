@@ -1,14 +1,24 @@
 import React from 'react';
-import Sidebar from '../components/Sidebar'; // Import the Sidebar component
+import Sidebar from '../components/Sidebar';
+import FilterComponent from '../components/FilterComponent';
+import CalendarComponent from '../components/CalendarComponent';
+import AlertsComponent from '../components/AlertsComponent';
+import FinalButtonsComponent from '../components/FinalButtonsComponent';
 
 function Planificador() {
     return (
         <div style={{ display: 'flex', height: '100vh' }}>
-            <Sidebar /> {/* Sidebar component */}
-            <div style={{ flex: 1, padding: '20px' }}>
+            <Sidebar />
+
+            <FilterComponent />
+            <CalendarComponent />
+            <AlertsComponent />
+            <FinalButtonsComponent />
+
+            {/* <div style={{ flex: 1, padding: '20px' }}>
                 <h1>Página Planificador</h1>
                 <p>Página del planificador.</p>
-            </div>
+            </div> */}
         </div>
     );
 }
