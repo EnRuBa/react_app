@@ -1,0 +1,71 @@
+/* 
+    ----- SIDEBAR ----- 
+*/
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    background-color: var(--primary-color);
+    box-sizing: border-box; /* Ensure padding is included in the element's dimensions */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full height of the parent container */
+}
+
+/* -- CONSTRAINTS -- */
+.contenedor-constraints{
+    text-align: left;
+}
+.constraint{
+    width: 100%;
+    margin-top: 30px;
+}
+.constraint-label{
+    width: 100%;
+    color: var(--white-color);
+    font-size: 15px;
+}
+.constraint-input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    margin-top: 5px;
+    height: 25px;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+/* -- DISCARD/APPLY buttons -- */
+.contenedor-descartar-generar {
+    margin-top: auto; /* Push to the bottom of the sidebar */
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Add 10px gap between buttons */
+}
+.generate-button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    color: var(--white-color);
+}
+.generate-button:hover{
+    padding: 10px 15px;
+    background-color: var(--primary-color-hover);
+    border: 1px solid var(--white-color-hover);
+    border-radius: 5px;
+    color: var(--white-color-hover);
+}
+.discard-button{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid var(--red-color);
+    border-radius: 5px;
+    color: var(--red-color);
+}
+.discard-button:hover{
+    padding: 10px 25px;
+    background-color: var(--primary-color-hover);
+    border: 1px solid var(--red-color-hover);
+    border-radius: 5px;
+    color: var(--red-color-hover);
+}

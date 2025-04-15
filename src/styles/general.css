@@ -1,0 +1,52 @@
+/* -- GENERAL -- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* -- TYPOGRAPHYS -- */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+h1{font-size: 65px;}
+h2{font-size: 50px;}
+h3{font-size: 40px;}
+h4{font-size: 35px;}
+
+h1-dark{font-size: 65px; color: var(--white-color);}
+h2-dark{font-size: 50px; color: var(--white-color);}
+h3-dark{font-size: 40px; color: var(--white-color);}
+h4-dark{font-size: 35px; color: var(--white-color);}
+
+.thin {font-weight: 100;}
+.extra-light {font-weight: 200;}
+.light {font-weight: 300;}
+.normal {font-weight: 400;}
+.medium {font-weight: 500;}
+.semi-bold {font-weight: 600;}
+.bold {font-weight: 700;}
+.extra-bold {font-weight: 800;}
+.black {font-weight: 900;}
+
+
+/* -- COLORS -- */
+:root {
+
+    --primary-color: #004666;
+    --primary-color-hover: #003B4D;
+
+    --white-color: #FFFFFF;
+    --white-color-hover: #F2F2F2;
+    --red-color: #FF0000;
+    --red-color-hover: #CC0000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

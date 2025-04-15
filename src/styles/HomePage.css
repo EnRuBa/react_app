@@ -1,0 +1,46 @@
+.home-page {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.home-page-component {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.homePageButtons {
+    margin-top: 20px;
+}
+
+.homePageButton {
+    margin: 10px;
+    padding: 15px 45px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 10px;
+}
+.homePageButton:hover {
+    margin: 10px;
+    padding: 15px 45px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0px;
+    background-color: var(--primary-color-hover);
+    color: var(--white-color);
+    border-radius: 10px;
+}
