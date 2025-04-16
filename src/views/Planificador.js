@@ -10,10 +10,14 @@ function Planificador() {
         <div style={{ display: 'flex', height: '100vh' }}>
             <Sidebar />
 
-            <FilterComponent />
-            <CalendarComponent />
-            <AlertsComponent />
-            <FinalButtonsComponent />
+            <div className="mainContainer">
+                <FilterComponent />
+                <CalendarComponent />
+                <div className="bottomContainer">
+                    <AlertsComponent />
+                    <FinalButtonsComponent />
+                </div>
+            </div>
 
             {/* <div style={{ flex: 1, padding: '20px' }}>
                 <h1>Página Planificador</h1>

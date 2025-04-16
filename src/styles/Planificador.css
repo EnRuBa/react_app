@@ -2,7 +2,7 @@
     ----- SIDEBAR ----- 
 */
 .sidebar {
-    width: 350px;
+    width: 20%;
     height: 100vh;
     background-color: var(--primary-color);
     box-sizing: border-box; /* Ensure padding is included in the element's dimensions */
@@ -67,4 +67,75 @@
     border: 1px solid var(--red-color-hover);
     border-radius: 5px;
     color: var(--red-color-hover);
+}
+
+
+
+/*
+
+    ----- MAIN -----
+
+*/
+.mainContainer{
+    width: 75%;
+    text-align: left;
+}
+.mainContainer h4 {
+    text-align: left;
+}
+.bottomContainer{
+    display: flex;
+}
+
+/*
+    -- FILTER COMPONENT --
+*/
+.filterComponent{
+    padding: 25px;
+}
+.filterContainer{
+    border: 1px solid var(--black-color);
+    height: 50px;
+    padding: 25px;
+}
+
+/*
+    -- CALENDAR COMPONENT --
+*/
+.calendarComponent{
+    padding: 25px;
+}
+.calendarContainer{
+    border: 1px solid var(--black-color);
+    height: 500px;
+    padding: 25px;
+}
+
+/*
+    -- ALERTS CONTAINER --
+*/
+.alertsComponent{
+    padding: 25px;
+    width: 75%;
+}
+.alertsContainer{
+    border: 1px solid var(--red-color);
+    height: 50px;
+    padding: 25px;
+}
+
+/*
+    -- FINAL BUTTONS CONTAINER --
+*/
+.finalButtonsComponent{
+    width: 25%;
+    padding: 25px;
+}
+.apply-calendar-button{
+    width: 100%;
+    padding: auto 15px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
 }

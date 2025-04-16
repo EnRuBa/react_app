@@ -5,7 +5,10 @@ function FinalButtonsComponent() {
     return (
         <div className="finalButtonsComponent">
 
-            <h3>Alertas</h3>    
+            <div className="finalBUttonsContainer">
+                <button className="apply-calendar-button bold">Aceptar cambios</button>
+                <button className="discard-calendar-button bold">Descartar cambios</button>
+            </div>
 
         </div>
     );

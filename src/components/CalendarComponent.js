@@ -5,7 +5,10 @@ function CalendarComponent() {
     return (
         <div className="calendarComponent">
 
-            <h3>Calendario</h3>    
+            <h4>Calendario</h4>
+            <div class="calendarContainer">
+                <p>Contenedor del calendario</p>
+            </div>
 
         </div>
     );

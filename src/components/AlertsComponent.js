@@ -5,7 +5,9 @@ function AlertsComponent() {
     return (
         <div className="alertsComponent">
 
-            <h3>Alertas</h3>    
+            <div class="alertsContainer">
+                <p>Contenedor de alertas</p>
+            </div>
 
         </div>
     );
