@@ -4,8 +4,6 @@ import './App.css';
 import './styles/general.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './views/HomePage';
-import Calendario from './views/Calendario';
 import Planificador from './views/Planificador';
 
 function App() {
@@ -31,9 +29,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route path="/calendario" element={<Calendario />} />
-          <Route path="/planificador" element={<Planificador />} />
+          <Route exact path="/" element={<Planificador />} />
         </Routes>
       </div>
     </Router>

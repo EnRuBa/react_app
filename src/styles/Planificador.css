@@ -91,12 +91,12 @@
     -- FILTER COMPONENT --
 */
 .filterComponent{
-    padding: 25px;
+    padding: 15px;
 }
 .filterContainer{
     border: 1px solid var(--black-color);
-    height: 50px;
-    padding: 25px;
+    /* height: 50px; */
+    padding: 15px;
 }
 
 /*
@@ -105,10 +105,27 @@
 .calendarComponent{
     padding: 25px;
 }
+.contenedorTituloSelector{
+    width: 100%;
+    display: flex;
+}
+.contenedorTitulo{
+    width: 80%;
+}
+.contenedorSeleccionable{
+    width: 25%;
+}
+.selectorFormatoCalendario{
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+}
 .calendarContainer{
     border: 1px solid var(--black-color);
-    height: 500px;
-    padding: 25px;
+    /* height: 500px; */
+    /* padding: 25px; */
 }
 
 /*
@@ -133,9 +150,30 @@
 }
 .apply-calendar-button{
     width: 100%;
-    padding: auto 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: transparent;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     color: var(--primary-color);
+}
+.apply-calendar-button:hover{
+    border-color: var(--primary-color-hover);
+    background-color: aliceblue;
+    color: var(--primary-color-hover);
+}
+.discard-calendar-button{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid var(--red-color);
+    border-radius: 5px;
+    color: var(--red-color);
+    margin-top: 25px;
+}
+.discard-calendar-button:hover{
+    border-color: var(--red-color-hover);
+    background-color: var(--light-red-color);
+    color: var(--red-color-hover);
 }

@@ -44,6 +44,8 @@ h4-dark{font-size: 35px; color: var(--white-color);}
     --white-color-hover: #F2F2F2;
     --red-color: #FF0000;
     --red-color-hover: #CC0000;
+    --light-red-color: #FFE5E5;
+
     --black-color: #000000;
 
 }

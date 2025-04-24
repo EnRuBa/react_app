@@ -5,6 +5,8 @@ import CalendarComponent from '../components/CalendarComponent';
 import AlertsComponent from '../components/AlertsComponent';
 import FinalButtonsComponent from '../components/FinalButtonsComponent';
 
+import { Calendar } from 'react-big-calendar';
+
 function Planificador() {
     return (
         <div style={{ display: 'flex', height: '100vh' }}>
@@ -17,12 +19,8 @@ function Planificador() {
                     <AlertsComponent />
                     <FinalButtonsComponent />
                 </div>
-            </div>
 
-            {/* <div style={{ flex: 1, padding: '20px' }}>
-                <h1>Página Planificador</h1>
-                <p>Página del planificador.</p>
-            </div> */}
+            </div>
         </div>
     );
 }

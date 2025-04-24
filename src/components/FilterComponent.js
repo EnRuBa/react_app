@@ -5,7 +5,7 @@ function FilterComponent() {
     return (
         <div className="filterComponent">
 
-            <div class="filterContainer">
+            <div className="filterContainer">
                 <p>Contenedor de filtros</p>
             </div>
 
